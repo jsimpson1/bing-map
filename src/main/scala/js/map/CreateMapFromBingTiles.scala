@@ -21,4 +21,3 @@ object CreateMapFromBingTiles extends App {
   }
 
 }
-ls -alp
