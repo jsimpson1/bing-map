@@ -5,7 +5,7 @@ import javax.imageio.ImageIO
 
 import js.map.BingMapUtility.WSG84Coordinate
 
-object TileCombiner extends App {
+object BingTileCombiner extends App {
 
 
   apply(WSG84Coordinate(39.812515, -77.276845), WSG84Coordinate(39.775253, -77.211525), 17)

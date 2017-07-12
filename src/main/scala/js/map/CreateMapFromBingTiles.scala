@@ -16,7 +16,7 @@ object CreateMapFromBingTiles extends App {
 
   def apply(startPoint: WSG84Coordinate, endPoint: WSG84Coordinate, levelOfDetail: Int) = {
     BingTileDownloader.apply(startPoint, endPoint, levelOfDetail)
-    TileCombiner.apply(startPoint, endPoint, levelOfDetail)
+    BingTileCombiner.apply(startPoint, endPoint, levelOfDetail)
     println("map is ./composite.jpeg")
   }
 
