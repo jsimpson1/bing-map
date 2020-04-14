@@ -2,7 +2,7 @@
 
     <packaging>jar</packaging>
     <modelVersion>4.0.0</modelVersion>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
 
     <groupId>jsimpson</groupId>
     <artifactId>bing-maps_2.12</artifactId>
